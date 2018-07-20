@@ -3,11 +3,12 @@ See https://devcenter.heroku.com/articles/static-sites-ruby for setup
 
 
 
-//////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
 Written by Darragh:
 To import a project from GitHub to GitLab, go to New Project and then Import Project.
 
 Create a new Group by going to Groups -> New Group
 Then go to your project and 'fork' it into your new group
 
-To remove fork relationship (still unsure if this is good), go to your project, open settings in the sidebar and expand Advanced. Then scroll to the bottom to find option to Remove Fork Relationship
+To remove fork relationship (still unsure if this is good), go to your project, open settings in the sidebar and expand Advanced. Then scroll to the bottom to find option to Remove Fork Relationship.
+
