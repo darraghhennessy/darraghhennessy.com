@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="build/tailwind.css">
+    </head>
+    <body>
+
+  <!--
+  <label for="full_name" class="sr-only">Full name</label>
+            <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Full name">
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ]
+  }
+  ```
+-->
+<div class="relative bg-white">
+  <div class="lg:absolute lg:inset-0">
+    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="img/piano.jpg" alt="">
+    </div>
+  </div>
+  <div class="relative py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:py-32 lg:grid lg:grid-cols-2">
+    <div class="lg:pr-8">
+      <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+          Lessons
+        </h2>
+        <p class="mt-4 text-lg text-gray-500 sm:mt-3">
+          If you want to book an online or in-person piano lesson don't hesistate to contact me! 
+          I teach students of all ages and all skill levels in a relaxed, non-judgemental environment. 
+          The main thing is that you get to learn the music that <strong>you</strong> want to learn.
+        </p>
+        <p class="mt-4 text-lg text-gray-500 sm:mt-3">
+          If you have any questions, or want to get in touch for any other reason I'd love to hear from you!
+        </p>
+        <form action="#" method="POST" class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <div class="sm:col-span-2">
+            <label for="full_name" class="block text-sm font-medium text-gray-700">Full Name</label>
+            <div class="mt-1">
+              <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+            </div>
+            
+          </div>
+          <div class="sm:col-span-2">
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <div class="mt-1">
+              <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+            </div>
+          </div>
+          <div class="sm:col-span-2">
+            <div class="flex justify-between">
+              <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+              <span id="phone_description" class="text-sm text-gray-500">Optional</span>
+            </div>
+            <div class="mt-1">
+              <input type="text" name="phone" id="phone" autocomplete="tel" aria-describedby="phone_description" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+            </div>
+          </div>
+          <div class="sm:col-span-2">
+            <div class="flex justify-between">
+              <label for="how_can_we_help" class="block text-sm font-medium text-gray-700">How can I help you?</label>
+              <span id="how_can_we_help_description" class="text-sm text-gray-500">Max. 500 characters</span>
+            </div>
+            <div class="mt-1">
+              <textarea id="how_can_we_help" name="how_can_we_help" aria-describedby="how_can_we_help_description" rows="4" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></textarea>
+            </div>
+          </div>
+
+          <div class="text-right sm:col-span-2">
+            <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+        
+        <script src="" async defer></script>
+    </body>
+</html>
