@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "npx tailwindcss-cli build css/tailwind.css -o public/build/tailwind.css"
   },
   "keywords": [],
   "author": "",
