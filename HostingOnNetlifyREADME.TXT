@@ -2,11 +2,18 @@ How to host the site on Netlify:
 
 1.Start a new site on Netlify targeting your GitHub repo
 
+
 2.In your build settings set:
-Base directory:		public
 
-Build command:		NODE_ENV=production npx tailwindcss-cli@latest build ./build/tailwind.css -o ./dist/tailwind.css
+Build command:		npm run build
+			(If you haven't already, go to the package.json file in your project and add to the "scripts" :
+			"build": "npx tailwindcss-cli build css/tailwind.css -o public/build/tailwind.css")
 
-Publish directory:	(blank)
+Publish directory:	public/
 
-(Base directory and Publish directory may be interchangeable but this worked for me)
+
+3.On Netlify go to Set up Netlify DNS for your domain. This will give you a list of name servers that you will use. 
+
+4.Now go to the website's registar (in my case this was namecheap.com) and replace your site's name servers with Netlify's ones.
+
+ 
