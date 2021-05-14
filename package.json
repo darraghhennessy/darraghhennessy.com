@@ -17,6 +17,7 @@
     "vite": "^2.3.0"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.3.2"
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0"
   }
 }

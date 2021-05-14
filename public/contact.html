@@ -10,33 +10,30 @@
     </head>
     <body>
 
-  <!--
-  <label for="full_name" class="sr-only">Full name</label>
-            <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Full name">
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ]
-  }
-  ```
--->
 <div class="relative bg-white">
   <div class="lg:absolute lg:inset-0">
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="img/piano.jpg" alt="">
     </div>
   </div>
-  <div class="relative py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:py-32 lg:grid lg:grid-cols-2">
+  <div class="relative pt-6 px-4 pb-24 sm:px-6 md:max-w-xl lg:px-8 lg:max-w-7xl lg:mx-auto lg:pb-20 lg:grid lg:grid-cols-2">
+    <nav class=" sm:ml-0 sm:absolute justify-center lg:relative flex items-center h-10 lg:justify-start" aria-label="Global">
+      <div class="block ml-2 md:ml-52 lg:ml-10 md:px-4 space-x-8">
+        <a href="index.html" class="font-medium text-gray-500 hover:text-gray-900">About</a>
+
+        <a href="listen.html" class="font-medium text-gray-500 hover:text-indigo-600">Listen</a>
+
+        <a href="#" class="font-medium text-gray-500 hover:text-green-500">Projects</a>
+
+        <a href="contact.html" class="font-medium text-gray-500 hover:text-gray-900">Contact</a>
+
+      </div>
+    </nav>
+  </div>
+  <div class="relative pb-16 px-4 sm:pb-24 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:pb-32 lg:grid lg:grid-cols-2">
     <div class="lg:pr-8">
       <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+        <h2 class="text-4xl font-extrabold tracking-tight ">
           Lessons
         </h2>
         <p class="mt-4 text-lg text-gray-500 sm:mt-3">
